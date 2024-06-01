@@ -1,7 +1,15 @@
 document.addEventListener('DOMContentLoaded', function(){
     navegacionFija()
     crearGaleria()
+    resaltarEnlace()
 })
+
+function resaltarEnlace(){
+    document.addEventListener('scroll', function(){
+        const sections = document.querySelector('section')
+        const navLinks = document.querySelectorAll('.navegacion-principal a')
+    })
+}
 
 function navegacionFija(){
     const header = document.querySelector('.header')
